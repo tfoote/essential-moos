@@ -57,5 +57,5 @@ ENDIF("${CMAKE_SYSTEM_PROCESSOR}" STREQUAL "x86_64")
 
 add_subdirectory(Essentials)
 
-
-
+# Install package.xml
+install(FILES package.xml DESTINATION share/essential_moos)
